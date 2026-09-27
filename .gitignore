@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Node.js
+node_modules/
+
+# Build and test output
+build/
+dist/
+coverage/
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
